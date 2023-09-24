@@ -7,7 +7,7 @@ import Cart from './Cart';
 
 const links = [
     { id: 1, title: "Homepage", href: "/" },
-    { id: 2, title: "Menu", href: "/menu" },
+    { id: 2, title: "Menu", href: "/Menu" },
     { id: 3, title: "Working Hours", href: "/" },
     { id: 4, title: "Contact", href: "/" },
 ];

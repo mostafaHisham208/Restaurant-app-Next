@@ -5,13 +5,13 @@ import React from 'react'
 
 const Categorypage = () => {
   return (
-    <div className='flex flex-wrap text-red-500 '>
+    <div className='flex flex-wrap text-red-500 w-[98%]'>
        {pizzas.map((item)=>(
         <Link href={`/product/${item.id}`} key={item.id} className='w-full h-[60vh] border-r-2 border-b-2 group border-red-500 sm:w-1/2 lg:w-1/3 p-4 flex flex-col justify-between even:bg-fuchsia-50'>
 
          {item.img && 
-         <div className='relative h-[80%] hover:rotate-45 transition-all duration-300 '>
-            <Image src={item.img} alt='' fill className='object-contain'/>
+         <div className='relative h-[80%] flex justify-center  '>
+            <Image src={item.img} alt='' width={300} height={300}  className='object-contain  hover:rotate-45 transition-all duration-300 '/>
           </div>}
 
           <div className='flex  items-center justify-between font-bold  '>

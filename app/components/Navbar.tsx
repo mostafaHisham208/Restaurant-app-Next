@@ -26,7 +26,7 @@ const Navbar = () => {
            </div>
            
             {!user ?<Link href='/login'>Login</Link>:
-             <Link href='/orders'>Orders</Link>}
+             <Link href='/Order'>Orders</Link>}
              <Carticon/>
          </div>
          <div className='md:hidden'>

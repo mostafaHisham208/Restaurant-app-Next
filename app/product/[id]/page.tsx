@@ -5,7 +5,7 @@ import React from 'react'
 
 const Singlproductpage = () => {
     return (
-        <div className='p-4 lg:px-20 xl:px-40 h-screen flex flex-col justify-around text-red-500 md:flex-row md:items-center md:gap-8' >
+        <div className='p-4 lg:px-20 h-[80vh] xl:px-40  flex flex-col justify-around text-red-500 md:flex-row md:items-center md:gap-8' >
             {singleProduct.img && 
             <div className="relative w-full h-1/2 md:h-[70%]">
                 <Image

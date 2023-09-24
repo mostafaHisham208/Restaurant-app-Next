@@ -16,7 +16,7 @@ const data = [
     {
       id: 3,
       title: "the best pizza to share with your family",
-      image: "/slide3.jpg",
+      image: "/sliderpizza3.jpg",
     },
   ];
  
@@ -26,7 +26,7 @@ const Slider = () => {
     // useEffect(()=>{
     //     const intarvel=setInterval(
     //         ()=>setcurrentSlider(prev=> (prev===data.length-1 ? 0:prev+1))
-    //     ,2000)
+    //     ,3000)
     //     return ()=>clearInterval(intarvel);
     // },[])
   return (
